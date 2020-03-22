@@ -1,16 +1,16 @@
 include ../partials/header.pug
-h1 Qui prend quoi ?
-h2= party.name
-h3 Créé par #{party.author}
+h1(class="h1") Qui prend quoi ?
+h2(class="h2")= party.name
+h3(class="h3") Créé par #{party.author}
 label(for="url") Partagez l'événement
-input(id="url" value=`${url}` data-clipboard=`${url}` data-share-url=`${url}` data-share-title=`${party.name}` data-share-text=`${party.author} vous invite à participer à l'évenement ` )
+input(class="form-control" id="url" value=`${url}` data-clipboard=`${url}` data-share-url=`${url}` data-share-title=`${party.name}` data-share-text=`${party.author} vous invite à participer à l'évenement ` )
 
 form(method="post" action="/party/${id}/")
-  div
+  div(class="form-group") 
     label(for="item") Rajout d'un item à l'évenement
-    input(name="item" id="item" required minlength="3" placeholder="objet")
-
-  button(type="submit") Créer
+    input(class="form-control" name="item" id="item" required minlength="3" placeholder="objet")  
+  button(class="btn btn-primary" type="submit") Créer
 
 script.
   party = !{JSON.stringify(party)}
+  

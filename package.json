@@ -8,8 +8,6 @@
     "sass": "node-sass styles/style.scss public/style.css -w --output-style compressed",
     "watchify": "watchify scripts/*.js -o public/script.js -t [ babelify --presets [ @babel/preset-env babel-preset-minify ] ]",
     "sw": "watchify sw.js -o public/sw.js -t [ babelify --presets [ babel-preset-minify ] ]"
-
-
   },
   "keywords": [],
   "author": "",
@@ -17,6 +15,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pug": "^2.0.4"
