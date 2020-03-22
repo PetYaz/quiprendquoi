@@ -7,7 +7,7 @@
 `npm run start`
 
 ## Améliorations apportées
-giy 
+
 - Meilleure présentation visuelle des items (`party.scss`)
 
 ## Article personnel
@@ -17,7 +17,7 @@ giy
 Le sujet peut être :
 
 - une web api explorée (même en partie)
-- un outil ou technique lié à la performance, l'amélioration progressive, l'accessibil0,ité
+- un outil ou technique lié à la performance, l'amélioration progressive, l'accessibilité
 - une technique liée aux PWA ou aux service workers
 - un outil de développement (package npm, devtool...)
 
