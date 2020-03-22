@@ -8,7 +8,7 @@
 
 ## Améliorations apportées
 
-- Ajout de bootstrap, pas entièrement lié. 
+- Ajout de bootstrap : pas entièrement lié les classes CSS. 
 
 ## Article personnel
 
@@ -20,13 +20,13 @@
 
 Je me permets de sortir un peu des limites du sujet.
 
- En effet, je n’ai jamais vraiment utilisé quoi que ce soit concernant les sujets que vous nous proposez d’un point de vue technique. 
+En effet, je n’ai jamais vraiment utilisé quoi que ce soit concernant les sujets que vous nous proposez d’un point de vue technique. 
 
 C’est pour cela que je souhaite vous présenter l’utilisation que je peux avoir liés à des APIs en design 
 
 #### Description du sujet
 
-Plusieurs plugin permettent à des designers tels que moi de lier leurs design à des données via un lien API (par exemple “API / JSON Sync” sur Figma). 
+Plusieurs plugin permettent à des designers tels que moi de lier leurs design à des données via un lien API (par exemple [“API / JSON Sync”](https://www.figma.com/community/plugin/784880696244762700/API-%2F-JSON-Sync) sur Figma). 
 
 Le but est de récupérer des données en JSON via un lien API (ou l’import du fichier en lui même) et réutiliser ces données dans notre design afin de simuler l’interface le plus réellement possible et le rendre adaptatif aux données clients. 
 
