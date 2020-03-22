@@ -2,17 +2,12 @@
 
 ## Installation
 
-_À modifier si votre travail le nécessite_
-
 `npm install`
 
 `npm run start`
 
 ## Améliorations apportées
-
-
-_Quelques exemples (voir le TP)_
-
+giy 
 - Meilleure présentation visuelle des items (`party.scss`)
 
 ## Article personnel
